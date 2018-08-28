@@ -10,6 +10,7 @@ import com.foton.common.base.BaseActivity;
 import com.foton.common.commonutils.ToastUitl;
 import com.view.zhaojian.view.R;
 import com.view.zhaojian.view.ui.animation.ObjectAnimatorActivity;
+import com.view.zhaojian.view.ui.paint.Paint1Activity;
 
 import butterknife.Bind;
 import butterknife.OnClick;
@@ -63,7 +64,7 @@ public class MainActivity extends BaseActivity {
                 ObjectAnimatorActivity.startAction(MainActivity.this);
                 break;
             case R.id.tv1:
-
+                Paint1Activity.startAction(MainActivity.this);
                 break;
 
         }
